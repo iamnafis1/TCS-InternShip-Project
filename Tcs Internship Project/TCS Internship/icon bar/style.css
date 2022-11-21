@@ -1,0 +1,30 @@
+/* body{
+    background-color: #4cc9f0;
+} */
+nav{
+    width:580px;
+    height:100px;
+    background-color:#abc4ff;
+    margin: 300px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    height: 100%;
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color:#7a3ef1
+}
+a:hover{
+    background-color: #e3f2fd;
+    transition: 0.5s;
+}
+a:hover i{
+    animation:heartBeat;
+    animation-duration: 1s;
+}
